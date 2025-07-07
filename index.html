@@ -1,125 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-CFrPtiMb.css">
+    <title>Death Diaries – A Blog About Losing in Games</title>
+    <meta name="title" content="Death Diaries – A Blog About Losing in Games">
+    <meta name="description"
+      content="Death Diaries is a gaming blog that celebrates defeat, failure, and game-over moments through reflective, humorous, and emotional stories. Discover tales of tragic permadeaths, bad endings, and unforgettable losses across all genres.">
+    <meta name="keywords"
+      content="gaming blog, game over stories, video game deaths, bad endings, permadeath, losing in games, gaming failure, rogue-like losses, narrative gaming, death in games, emotional game stories, Death Diaries">
+    <meta name="author" content="Death Diaries Editorial Team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/svg+xml" href="/death-diaries/favicon.png" />
+    <script type="module" crossorigin src="/death-diaries/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/death-diaries/assets/styles-VAoLQUSb.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/test/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+       <!-- Home -->
+<section class="home-section" id="Home">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/test/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+    <h1 class="home-title">Welcome to <br/>
+    Death Diaries</h1>
+    <p class="home-text">A blog where failure is the main event.</p>
+    <p class="home-text-two">Losing isn't the end—it's where the best stories begin. Death Diaries is a blog dedicated to the hilarious,
+    heartbreaking, and unforgettable defeats we face in games. Whether you were crushed by a boss fight, betrayed by a party
+    member, or watched your favorite character fall to permadeath—we want the tale.</p>
+    <a class="home-link" href="#">
+        <p class="home-btn-text">Read the Latest Diary</p>
+     </a>
   </div>
 </section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
-</article>
-
+<!-- What Is Death Diaries? -->
+<section class="what-section">
+    <div class="container">
+<h2 class="what-title">What Is Death Diaries?</h2>
+<div class="what-wrapper">
+    <p class="what-text">We're not here for speedruns, flawless combos, or platinum trophies. We're here for the forgotten saves, the last-minute
+    mistakes, the boss fights you almost won—and the tears (or laughter) that followed. Death Diaries is a curated blog that
+    captures the most human moments in gaming—when control slips, when tension snaps, when the screen fades to black. These
+    are not just failures; they are memories.</p>
+    <p class="what-text what-text-two">Founded by lifelong gamers who were tired of seeing "Game Over" treated as a dead end, this blog embraces the artistry
+    of defeat. Each post is a eulogy, a confession, or a comedic breakdown of a moment that didn’t go as planned—but
+    couldn’t have been scripted better. Some entries will make you laugh. Some might make you think. Others will hurt just
+    enough to remind you why you loved that character, or why you’ll never trust that NPC again.</p>
+    <p class="what-text what-text-three">We celebrate the messy, emotional, and often hilarious reality of playing games—not to be perfect, but to be surprised,
+    challenged, and ultimately moved. If you've ever stared at a loading screen in silence after losing someone or something
+    in a game, you already understand what this is.
+    Welcome to the place where your worst gaming moments become your best stories.
+        </p>
+</div>
+    </div>
+</section>
+<!-- Featured Death Entries -->
+<section class="featured-section">
+    <div class="container">
+        <h2 class="featured-title">Featured Death Entries</h2>
+        <h2 class="featured-title-desk">Recent Posts from the Abyss</h2>
+        <ul class="featured-list">
+            <li class="featured-item">
+                <img class="featured-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAA0CAYAAAAkEw66AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATySURBVHgBzZtdchpHEIB7ZiXlVbkBPoAwkmWwKg9xTpDkBEEnCDmB8QmCTyB8AuMTQB4SSRgXRLicvHlzAlN2nkC74+4xWvGzP8Nuz+5+VSqpYCWmvp7u2e0ZAeRI9XrUrV6/aUNJqY3Hh0fDUR/H+UvStQJy4qsw8Yx+VgIGjrc4n5yduVASSJq/8PqgoPb1FdG5aTz6Ler6XMStSlvB9X11/u7s8QAKZltagCv9xQ9hAZZgmQhpREVK0S9D6kZIIyq+3B+Hpa7VGRcjbY0iU5fqLn5LrGmbqWtNnKm0FXJPXXNpAUHqWhGXQtoK6vlN43EbLJNC2h0z/Gqx17hs0hAhfgTLZJBGHCoQNVZxmaVhKsy9xc9gkepw1IH00qi4TaZY69jEMUibzbF+/GtxgdBjVPArpCcILIu46tWbVkZpRMu6NMbA7kFGji6HTaxLv0MGfBDtd41HL8ESDNLAV9BeDWymVZWkCSkvIAtYM27qp8dgCQ5puBh0phuPX6lTlUWa5cWAQxriTkOeWVOl6tH16CecqlmlEW1bdY1JGlBdC3t95xlX+3NY45CmFHRvGqdW6hqXNKq9UYHdSRxJ8/dkH388hGy4C7V4Dhbgkoa4uGBFjtFYHKM0wkqKMt0WaaJS9A6jVZVZmosp+gCYYVqsNFRGpk9Oz+OuSVwcapdj7En5r/DPcUgj2sAMpzTCpIzEpupSGs40VQEeXO4FgVsazTaTMhI54yxII9rACONt0T1Sdo0uC3vRkjQquH8AE1y3RRu40/qJ0Ri3xNmShinQ41pJmRerFUTP9Mo1cbak6SEJMB5UHPakAdzeesb1NxBnUxrBkaY2pSHu++/qE9OLtTjb0ogDuf89ZECPcc/B2yIr0ojD2uVlxfRikYe04MNwqRd4j7TrNmCeY6RtQOnPXySNUXqOd5HPgPT+aVNv8P5Fj0Zm6F323KQRqoVjTDw/IuiQCc6Ep5A/kccLNqlev/2Qn7h74jJEKk9Z6VIYQMcLPhgegehCASwzpB95BALf+Aj2iq4JrlJOa/rk+HXYmzpd595HKJa1DFnejogOFEtFCK/38Gp0EbayTY6PZ3S+BIplLUO0OHkgX0AJWKbGq9D3iispG4hnFGAtriQRvSO0ZCwP48ygJARPDuWJaByFl5SAQFzZIhpGWUoKsdEdKU9EwyhTSVkTdyu811B2hFOK4K6Je1+vT0q0SITi7AF1WQovKVuNTOHz9M1sQemKo+xCwWyJk9841MwrLKLYKU7sifm+X2RJ0XV2S1wREUVZA1DQ+nTgfIv7mYmHcOgOIO+SoscIThPH+IB26kJ3uSiiUgrj1k9KZooCJERv2jjZuTusS4qw3tWZ+Xin8T/eBrl6Qq18ftRv2Go36chJ2TbdTYpi+eCP7Sb25sR9QGPGGLmvyhlRkqWEGIRFLi1UUrBP16XGIzBAY8RZ1PuENd5kjJHiaJHAiLYhfUQzpaIJDCUlMhWTiD108/Dq7YUSqgk7cJeKn/fF31yzK44UJWVGe7y0Y5+lXMQeuvGU/1IK0YRkJhi5HmcqmiKUGGC4niZdt2sqJn5u0gXV4Wgc8Z91RkXUNgmLhE5Fb190/zk5+Q8YST4DrOhYgArE6VR0nM5nfPTJe3aFQYsEputkJV1ny3LRsRnQRHHUyvHnftPHDZMiUtEE3UsUAjhTMYkv6OvcwsGK5RsAAAAASUVORK5CYII=" alt="quotes" loading="lazy">
+                <p>How I Lost My Last Ship in FTL After 1.5 Hours</p>
+            </li>
+            <li class="featured-item">
+                <img class="featured-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAA0CAYAAAAkEw66AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATySURBVHgBzZtdchpHEIB7ZiXlVbkBPoAwkmWwKg9xTpDkBEEnCDmB8QmCTyB8AuMTQB4SSRgXRLicvHlzAlN2nkC74+4xWvGzP8Nuz+5+VSqpYCWmvp7u2e0ZAeRI9XrUrV6/aUNJqY3Hh0fDUR/H+UvStQJy4qsw8Yx+VgIGjrc4n5yduVASSJq/8PqgoPb1FdG5aTz6Ler6XMStSlvB9X11/u7s8QAKZltagCv9xQ9hAZZgmQhpREVK0S9D6kZIIyq+3B+Hpa7VGRcjbY0iU5fqLn5LrGmbqWtNnKm0FXJPXXNpAUHqWhGXQtoK6vlN43EbLJNC2h0z/Gqx17hs0hAhfgTLZJBGHCoQNVZxmaVhKsy9xc9gkepw1IH00qi4TaZY69jEMUibzbF+/GtxgdBjVPArpCcILIu46tWbVkZpRMu6NMbA7kFGji6HTaxLv0MGfBDtd41HL8ESDNLAV9BeDWymVZWkCSkvIAtYM27qp8dgCQ5puBh0phuPX6lTlUWa5cWAQxriTkOeWVOl6tH16CecqlmlEW1bdY1JGlBdC3t95xlX+3NY45CmFHRvGqdW6hqXNKq9UYHdSRxJ8/dkH388hGy4C7V4Dhbgkoa4uGBFjtFYHKM0wkqKMt0WaaJS9A6jVZVZmosp+gCYYVqsNFRGpk9Oz+OuSVwcapdj7En5r/DPcUgj2sAMpzTCpIzEpupSGs40VQEeXO4FgVsazTaTMhI54yxII9rACONt0T1Sdo0uC3vRkjQquH8AE1y3RRu40/qJ0Ri3xNmShinQ41pJmRerFUTP9Mo1cbak6SEJMB5UHPakAdzeesb1NxBnUxrBkaY2pSHu++/qE9OLtTjb0ogDuf89ZECPcc/B2yIr0ojD2uVlxfRikYe04MNwqRd4j7TrNmCeY6RtQOnPXySNUXqOd5HPgPT+aVNv8P5Fj0Zm6F323KQRqoVjTDw/IuiQCc6Ep5A/kccLNqlev/2Qn7h74jJEKk9Z6VIYQMcLPhgegehCASwzpB95BALf+Aj2iq4JrlJOa/rk+HXYmzpd595HKJa1DFnejogOFEtFCK/38Gp0EbayTY6PZ3S+BIplLUO0OHkgX0AJWKbGq9D3iispG4hnFGAtriQRvSO0ZCwP48ygJARPDuWJaByFl5SAQFzZIhpGWUoKsdEdKU9EwyhTSVkTdyu811B2hFOK4K6Je1+vT0q0SITi7AF1WQovKVuNTOHz9M1sQemKo+xCwWyJk9841MwrLKLYKU7sifm+X2RJ0XV2S1wREUVZA1DQ+nTgfIv7mYmHcOgOIO+SoscIThPH+IB26kJ3uSiiUgrj1k9KZooCJERv2jjZuTusS4qw3tWZ+Xin8T/eBrl6Qq18ftRv2Go36chJ2TbdTYpi+eCP7Sb25sR9QGPGGLmvyhlRkqWEGIRFLi1UUrBP16XGIzBAY8RZ1PuENd5kjJHiaJHAiLYhfUQzpaIJDCUlMhWTiD108/Dq7YUSqgk7cJeKn/fF31yzK44UJWVGe7y0Y5+lXMQeuvGU/1IK0YRkJhi5HmcqmiKUGGC4niZdt2sqJn5u0gXV4Wgc8Z91RkXUNgmLhE5Fb190/zk5+Q8YST4DrOhYgArE6VR0nM5nfPTJe3aFQYsEputkJV1ny3LRsRnQRHHUyvHnftPHDZMiUtEE3UsUAjhTMYkv6OvcwsGK5RsAAAAASUVORK5CYII=" alt="quotes" loading="lazy">
+                <p>Permadeath in Fire Emblem: When Your Favorite Dies
+                </p>
+            </li>
+            <li class="featured-item">
+                <img class="featured-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAA0CAYAAAAkEw66AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATySURBVHgBzZtdchpHEIB7ZiXlVbkBPoAwkmWwKg9xTpDkBEEnCDmB8QmCTyB8AuMTQB4SSRgXRLicvHlzAlN2nkC74+4xWvGzP8Nuz+5+VSqpYCWmvp7u2e0ZAeRI9XrUrV6/aUNJqY3Hh0fDUR/H+UvStQJy4qsw8Yx+VgIGjrc4n5yduVASSJq/8PqgoPb1FdG5aTz6Ler6XMStSlvB9X11/u7s8QAKZltagCv9xQ9hAZZgmQhpREVK0S9D6kZIIyq+3B+Hpa7VGRcjbY0iU5fqLn5LrGmbqWtNnKm0FXJPXXNpAUHqWhGXQtoK6vlN43EbLJNC2h0z/Gqx17hs0hAhfgTLZJBGHCoQNVZxmaVhKsy9xc9gkepw1IH00qi4TaZY69jEMUibzbF+/GtxgdBjVPArpCcILIu46tWbVkZpRMu6NMbA7kFGji6HTaxLv0MGfBDtd41HL8ESDNLAV9BeDWymVZWkCSkvIAtYM27qp8dgCQ5puBh0phuPX6lTlUWa5cWAQxriTkOeWVOl6tH16CecqlmlEW1bdY1JGlBdC3t95xlX+3NY45CmFHRvGqdW6hqXNKq9UYHdSRxJ8/dkH388hGy4C7V4Dhbgkoa4uGBFjtFYHKM0wkqKMt0WaaJS9A6jVZVZmosp+gCYYVqsNFRGpk9Oz+OuSVwcapdj7En5r/DPcUgj2sAMpzTCpIzEpupSGs40VQEeXO4FgVsazTaTMhI54yxII9rACONt0T1Sdo0uC3vRkjQquH8AE1y3RRu40/qJ0Ri3xNmShinQ41pJmRerFUTP9Mo1cbak6SEJMB5UHPakAdzeesb1NxBnUxrBkaY2pSHu++/qE9OLtTjb0ogDuf89ZECPcc/B2yIr0ojD2uVlxfRikYe04MNwqRd4j7TrNmCeY6RtQOnPXySNUXqOd5HPgPT+aVNv8P5Fj0Zm6F323KQRqoVjTDw/IuiQCc6Ep5A/kccLNqlev/2Qn7h74jJEKk9Z6VIYQMcLPhgegehCASwzpB95BALf+Aj2iq4JrlJOa/rk+HXYmzpd595HKJa1DFnejogOFEtFCK/38Gp0EbayTY6PZ3S+BIplLUO0OHkgX0AJWKbGq9D3iispG4hnFGAtriQRvSO0ZCwP48ygJARPDuWJaByFl5SAQFzZIhpGWUoKsdEdKU9EwyhTSVkTdyu811B2hFOK4K6Je1+vT0q0SITi7AF1WQovKVuNTOHz9M1sQemKo+xCwWyJk9841MwrLKLYKU7sifm+X2RJ0XV2S1wREUVZA1DQ+nTgfIv7mYmHcOgOIO+SoscIThPH+IB26kJ3uSiiUgrj1k9KZooCJERv2jjZuTusS4qw3tWZ+Xin8T/eBrl6Qq18ftRv2Go36chJ2TbdTYpi+eCP7Sb25sR9QGPGGLmvyhlRkqWEGIRFLi1UUrBP16XGIzBAY8RZ1PuENd5kjJHiaJHAiLYhfUQzpaIJDCUlMhWTiD108/Dq7YUSqgk7cJeKn/fF31yzK44UJWVGe7y0Y5+lXMQeuvGU/1IK0YRkJhi5HmcqmiKUGGC4niZdt2sqJn5u0gXV4Wgc8Z91RkXUNgmLhE5Fb190/zk5+Q8YST4DrOhYgArE6VR0nM5nfPTJe3aFQYsEputkJV1ny3LRsRnQRHHUyvHnftPHDZMiUtEE3UsUAjhTMYkv6OvcwsGK5RsAAAAASUVORK5CYII=" alt="quotes" loading="lazy">
+                <p>The Saddest Ending in Shadow of the Colossus</p>
+            </li>
+            <li class="featured-item">
+                <img class="featured-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAA0CAYAAAAkEw66AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATySURBVHgBzZtdchpHEIB7ZiXlVbkBPoAwkmWwKg9xTpDkBEEnCDmB8QmCTyB8AuMTQB4SSRgXRLicvHlzAlN2nkC74+4xWvGzP8Nuz+5+VSqpYCWmvp7u2e0ZAeRI9XrUrV6/aUNJqY3Hh0fDUR/H+UvStQJy4qsw8Yx+VgIGjrc4n5yduVASSJq/8PqgoPb1FdG5aTz6Ler6XMStSlvB9X11/u7s8QAKZltagCv9xQ9hAZZgmQhpREVK0S9D6kZIIyq+3B+Hpa7VGRcjbY0iU5fqLn5LrGmbqWtNnKm0FXJPXXNpAUHqWhGXQtoK6vlN43EbLJNC2h0z/Gqx17hs0hAhfgTLZJBGHCoQNVZxmaVhKsy9xc9gkepw1IH00qi4TaZY69jEMUibzbF+/GtxgdBjVPArpCcILIu46tWbVkZpRMu6NMbA7kFGji6HTaxLv0MGfBDtd41HL8ESDNLAV9BeDWymVZWkCSkvIAtYM27qp8dgCQ5puBh0phuPX6lTlUWa5cWAQxriTkOeWVOl6tH16CecqlmlEW1bdY1JGlBdC3t95xlX+3NY45CmFHRvGqdW6hqXNKq9UYHdSRxJ8/dkH388hGy4C7V4Dhbgkoa4uGBFjtFYHKM0wkqKMt0WaaJS9A6jVZVZmosp+gCYYVqsNFRGpk9Oz+OuSVwcapdj7En5r/DPcUgj2sAMpzTCpIzEpupSGs40VQEeXO4FgVsazTaTMhI54yxII9rACONt0T1Sdo0uC3vRkjQquH8AE1y3RRu40/qJ0Ri3xNmShinQ41pJmRerFUTP9Mo1cbak6SEJMB5UHPakAdzeesb1NxBnUxrBkaY2pSHu++/qE9OLtTjb0ogDuf89ZECPcc/B2yIr0ojD2uVlxfRikYe04MNwqRd4j7TrNmCeY6RtQOnPXySNUXqOd5HPgPT+aVNv8P5Fj0Zm6F323KQRqoVjTDw/IuiQCc6Ep5A/kccLNqlev/2Qn7h74jJEKk9Z6VIYQMcLPhgegehCASwzpB95BALf+Aj2iq4JrlJOa/rk+HXYmzpd595HKJa1DFnejogOFEtFCK/38Gp0EbayTY6PZ3S+BIplLUO0OHkgX0AJWKbGq9D3iispG4hnFGAtriQRvSO0ZCwP48ygJARPDuWJaByFl5SAQFzZIhpGWUoKsdEdKU9EwyhTSVkTdyu811B2hFOK4K6Je1+vT0q0SITi7AF1WQovKVuNTOHz9M1sQemKo+xCwWyJk9841MwrLKLYKU7sifm+X2RJ0XV2S1wREUVZA1DQ+nTgfIv7mYmHcOgOIO+SoscIThPH+IB26kJ3uSiiUgrj1k9KZooCJERv2jjZuTusS4qw3tWZ+Xin8T/eBrl6Qq18ftRv2Go36chJ2TbdTYpi+eCP7Sb25sR9QGPGGLmvyhlRkqWEGIRFLi1UUrBP16XGIzBAY8RZ1PuENd5kjJHiaJHAiLYhfUQzpaIJDCUlMhWTiD108/Dq7YUSqgk7cJeKn/fF31yzK44UJWVGe7y0Y5+lXMQeuvGU/1IK0YRkJhi5HmcqmiKUGGC4niZdt2sqJn5u0gXV4Wgc8Z91RkXUNgmLhE5Fb190/zk5+Q8YST4DrOhYgArE6VR0nM5nfPTJe3aFQYsEputkJV1ny3LRsRnQRHHUyvHnftPHDZMiUtEE3UsUAjhTMYkv6OvcwsGK5RsAAAAASUVORK5CYII=" alt="quotes" loading="lazy">
+                <p>I Trusted the Wrong Character in Disco Elysium</p>
+            </li>
+            <li class="featured-item">
+                <img class="featured-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAA0CAYAAAAkEw66AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATySURBVHgBzZtdchpHEIB7ZiXlVbkBPoAwkmWwKg9xTpDkBEEnCDmB8QmCTyB8AuMTQB4SSRgXRLicvHlzAlN2nkC74+4xWvGzP8Nuz+5+VSqpYCWmvp7u2e0ZAeRI9XrUrV6/aUNJqY3Hh0fDUR/H+UvStQJy4qsw8Yx+VgIGjrc4n5yduVASSJq/8PqgoPb1FdG5aTz6Ler6XMStSlvB9X11/u7s8QAKZltagCv9xQ9hAZZgmQhpREVK0S9D6kZIIyq+3B+Hpa7VGRcjbY0iU5fqLn5LrGmbqWtNnKm0FXJPXXNpAUHqWhGXQtoK6vlN43EbLJNC2h0z/Gqx17hs0hAhfgTLZJBGHCoQNVZxmaVhKsy9xc9gkepw1IH00qi4TaZY69jEMUibzbF+/GtxgdBjVPArpCcILIu46tWbVkZpRMu6NMbA7kFGji6HTaxLv0MGfBDtd41HL8ESDNLAV9BeDWymVZWkCSkvIAtYM27qp8dgCQ5puBh0phuPX6lTlUWa5cWAQxriTkOeWVOl6tH16CecqlmlEW1bdY1JGlBdC3t95xlX+3NY45CmFHRvGqdW6hqXNKq9UYHdSRxJ8/dkH388hGy4C7V4Dhbgkoa4uGBFjtFYHKM0wkqKMt0WaaJS9A6jVZVZmosp+gCYYVqsNFRGpk9Oz+OuSVwcapdj7En5r/DPcUgj2sAMpzTCpIzEpupSGs40VQEeXO4FgVsazTaTMhI54yxII9rACONt0T1Sdo0uC3vRkjQquH8AE1y3RRu40/qJ0Ri3xNmShinQ41pJmRerFUTP9Mo1cbak6SEJMB5UHPakAdzeesb1NxBnUxrBkaY2pSHu++/qE9OLtTjb0ogDuf89ZECPcc/B2yIr0ojD2uVlxfRikYe04MNwqRd4j7TrNmCeY6RtQOnPXySNUXqOd5HPgPT+aVNv8P5Fj0Zm6F323KQRqoVjTDw/IuiQCc6Ep5A/kccLNqlev/2Qn7h74jJEKk9Z6VIYQMcLPhgegehCASwzpB95BALf+Aj2iq4JrlJOa/rk+HXYmzpd595HKJa1DFnejogOFEtFCK/38Gp0EbayTY6PZ3S+BIplLUO0OHkgX0AJWKbGq9D3iispG4hnFGAtriQRvSO0ZCwP48ygJARPDuWJaByFl5SAQFzZIhpGWUoKsdEdKU9EwyhTSVkTdyu811B2hFOK4K6Je1+vT0q0SITi7AF1WQovKVuNTOHz9M1sQemKo+xCwWyJk9841MwrLKLYKU7sifm+X2RJ0XV2S1wREUVZA1DQ+nTgfIv7mYmHcOgOIO+SoscIThPH+IB26kJ3uSiiUgrj1k9KZooCJERv2jjZuTusS4qw3tWZ+Xin8T/eBrl6Qq18ftRv2Go36chJ2TbdTYpi+eCP7Sb25sR9QGPGGLmvyhlRkqWEGIRFLi1UUrBP16XGIzBAY8RZ1PuENd5kjJHiaJHAiLYhfUQzpaIJDCUlMhWTiD108/Dq7YUSqgk7cJeKn/fF31yzK44UJWVGe7y0Y5+lXMQeuvGU/1IK0YRkJhi5HmcqmiKUGGC4niZdt2sqJn5u0gXV4Wgc8Z91RkXUNgmLhE5Fb190/zk5+Q8YST4DrOhYgArE6VR0nM5nfPTJe3aFQYsEputkJV1ny3LRsRnQRHHUyvHnftPHDZMiUtEE3UsUAjhTMYkv6OvcwsGK5RsAAAAASUVORK5CYII=" alt="quotes" loading="lazy">
+                <p>Why I Deleted My Save After Beating Dark Souls
+                </p>
+            </li>
+        </ul>
+        <a class="featured-link" href="#Home">
+            <p class="featured-btn-text">Browse All Posts</p></a>
+        <picture>
+            <source srcset="/death-diaries/assets/desk-B_-6t3_0.png 1x, /death-diaries/assets/desk@2x-DQ-bCcA_.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/death-diaries/assets/mob-C_M_fikn.png 1x, /death-diaries/assets/mob@2x-B0Wmmr11.png 2x" media="(max-width: 1438px)" />
+            <img class="boy-img" src="/death-diaries/assets/mob-C_M_fikn.png" alt="Boy" loading="lazy" />
+        </picture>
+    </div>
+</section>
     </main>
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+
   </div>
 </footer>
 
