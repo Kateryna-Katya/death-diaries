@@ -1,0 +1,168 @@
+/* Home */
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 70px center;
+    background-size: cover;
+    height: 724px;
+}
+.home-title{
+    margin-top: 90px;
+    font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1;
+        font-variant: all-small-caps;
+        color: #041015;
+        text-shadow:
+                0 0 5px #2ec9cc,
+                0 0 10px #2ec9cc,
+                0 0 10px #2ec9cc,
+                0 0 30px #2ec9cc;
+}
+.home-text{
+    margin-top: 20px;
+    font-weight: 600;
+        font-size: 20px;
+}
+.home-text-two{
+    margin-top: 20px;
+}
+.home-link{
+    display: block;
+    margin-top: 20px;
+    padding: 16px 24px;
+        width: 345px;
+        height: 51px;
+        background: #ca5a2e; 
+        margin-left: auto;
+        margin-right: auto;   
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #fff;
+}
+@media only screen and (min-width: 1439px) {
+  .home-section{
+    background-image: url("/img/home/desk.png");
+    height: 710px;
+  }
+  .home-title{
+    font-size: 80px;
+  }
+  .home-text{
+margin-top: 24px;
+width: 526px;
+font-size: 40px;
+  }
+  .home-text-two{
+    margin-top: 32px;
+    font-size: 18px;
+    width: 526px;
+  }
+  .home-link{
+    margin-left: 0;
+    margin-top: 24px;
+    width: 416px;
+        height: 51px;
+  }
+}
+/* What Is Death Diaries? */
+.what-wrapper{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media only screen and (min-width: 1439px) {
+    .what-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 22px;
+    }
+.what-text{
+width: 636px;
+}
+.what-text-two{
+    margin-top: 110px;
+}
+.what-text-three{
+    margin-top: -50px;
+}
+}
+/* Featured Death Entries */
+.featured-list{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 20px;
+}
+.featured-item{
+    position: relative;
+    width: 323px;
+    height: 42px;
+   }
+   .featured-img{
+    position: absolute;
+    top: -10px;
+    left: -22px;
+    width: 20px;
+    height: 13px;
+   }
+   .featured-link{
+        padding: 16px 24px;
+        width: 345px;
+        height: 51px;
+        background: #ca5a2e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #fff;
+   }
+   .featured-title-desk{
+    display: none;
+   }
+   @media only screen and (min-width: 1439px) {
+    .featured-title{
+        display: none;
+    }
+    .featured-title-desk{
+        display: block;
+    }
+    .featured-list{
+        margin-top: 56px;
+        width: 676px;
+    }
+    .featured-item{
+        width: 566px;
+         }
+    .featured-item:nth-child(even){
+        margin-left: 60px;
+    }
+    .featured-img{
+        width: 39px;
+        height: 26px;
+        top: -30px;
+        left: -40px;
+    }
+    .featured-link{
+        width: 416px;
+            height: 51px;
+            margin-top: 72px;
+    }
+    .boy-img{
+        margin-right: 0;
+        margin-left: auto;
+        margin-top: -540px;
+    }
+   }
