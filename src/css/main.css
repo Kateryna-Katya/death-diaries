@@ -321,30 +321,6 @@ width: 317px;
      width: 323px;
      height: 42px;
  }
-
- .featured-img {
-     position: absolute;
-     top: -10px;
-     left: -22px;
-     width: 20px;
-     height: 13px;
- }
-
- .featured-link {
-     padding: 16px 24px;
-     width: 345px;
-     height: 51px;
-     background: #ca5a2e;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 25px;
-     font-family: "Roboto", sans-serif;
-     font-weight: 700;
-     font-size: 16px;
-     text-transform: uppercase;
-     color: #fff;
- }
 .hall-img{
     margin-top: 25px;
 }
@@ -363,19 +339,6 @@ width: 317px;
          margin-left: 60px;
      }
 
-     .featured-img {
-         width: 39px;
-         height: 26px;
-         top: -30px;
-         left: -40px;
-     }
-
-     .featured-link {
-         width: 416px;
-         height: 51px;
-         margin-top: 72px;
-     }
-
      .hall-img {
         width: 636px;
             height: 528px;
@@ -384,3 +347,171 @@ width: 317px;
          margin-top: -530px;
      }
  }
+ /* Words from the Fallen */
+ .word-title {
+     margin-bottom: 25px;
+ }
+
+ .word-swiper-slide {
+     cursor: pointer;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(46, 201, 204, 0.4) 100%);
+    padding: 15px;
+ }
+.text-word-slide{
+    height: 210px;
+    margin-bottom: 25px;
+}
+.author{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: right;
+        color: #2ec9cc;
+        margin-bottom: 10px;
+}
+.rank-author{
+    font-weight: 700;
+    text-align: right;
+    font-size: 16px;
+}
+ .custom-pagination {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin-top: 20px;
+     width: 100%;
+     height: 50px;
+ }
+
+ .word-pagination-item {
+     border-radius: 8px;
+     width: 8px;
+     height: 8px;
+     background: #969bad;
+     transition: background-color 0.3s ease-in-out;
+ }
+
+ .word-pagination-item.active {
+     border: 1px solid #091018;
+     border-radius: 8px;
+     background: #2ec9cc;
+     transform: scale(1.4);
+ }
+
+ .custom-navigation {
+     display: none;
+ }
+
+ @media only screen and (min-width: 1439px) {
+     .word-title {
+         margin-bottom: 56px;
+     }
+
+     .word-container {
+         position: relative;
+     }
+
+     .custom-pagination {
+         display: none;
+     }
+
+     .custom-navigation {
+         display: flex;
+         position: absolute;
+         top: 70px;
+         justify-content: space-between;
+         width: 90%;
+     }
+
+     .custom-arrow {
+         cursor: pointer;
+         background-color: inherit;
+         border: none;
+     }
+
+     .word-custom-next {
+         transform: rotate(180deg);
+     }
+.word-swiper-slide{
+    padding: 16px 24px;
+}
+.text-word-slide{
+    height: 252px;
+}
+.author{
+    font-size: 24px;
+}
+ }
+ /* Want More Death in Your Inbox? */
+.inbox-section{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(46, 201, 204, 0.4) 100%);
+ }
+.inbox-text-wrapper{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inbox-span{
+    font-weight: 700;
+}
+ .subscribe-form {
+     display: flex;
+     flex-direction: column;
+     width: 345px;
+     height: 115px;
+ }
+
+ .email-input {
+     padding: 16px 14px;
+    font-size: 16px;
+      border: 2px solid #ca5a2e;
+    border-bottom: 1px solid #ca5a2e;
+     background-color: transparent;
+   }
+   .email-input::placeholder {
+       color: rgba(46, 201, 204, 0.4); 
+    }
+ .subscribe-button {
+     padding: 15px;
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color:#fff;
+    background: #041015;
+    border: 2px solid #ca5a2e;
+    border-top: 1px solid #ca5a2e;
+     cursor: pointer;     
+    }
+@media only screen and (min-width: 1439px) {
+.inbox-section{
+    height: 308px;
+}
+.inbox-text-wrapper{
+    margin-top: 56px;
+    margin-bottom: 0;
+    width: 526px;
+}
+.subscribe-form{
+    flex-direction: row;
+    width: 526px;
+        height: 51px;
+        margin-right: 0;
+        margin-left: auto;
+        margin-top: -80px;
+}
+.email-input{
+    border: 2px solid #ca5a2e;
+    border-right: 1px solid #ca5a2e;
+    width: 405px;
+}
+.subscribe-button{
+    border: 2px solid #ca5a2e;
+    border-left: 1px solid #ca5a2e;
+        padding: 16px 24px;
+        width: 121px;
+        height: 51px;
+}
+}
