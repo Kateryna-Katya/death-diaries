@@ -515,3 +515,146 @@ width: 317px;
         height: 51px;
 }
 }
+/* Players Who Embraced the Fall */
+.who-text{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.who-link{
+    display: flex;
+    border: 1px solid #2ec9cc;
+        padding: 16px 24px;
+        width: 345px;
+        height: 51px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #ca5a2e;
+}
+@media only screen and (min-width: 1439px) {
+.who-text{
+    margin-top: 56px;
+    margin-bottom: 56px;
+    width: 636px;
+}
+.who-link{
+    margin-bottom: 0;
+    width: 416px;
+        height: 51px;
+}
+.who-img{
+    margin-right: 140px;
+    margin-left: auto;
+    margin-top: -300px;
+}
+}
+/* Frequently Died Questions */
+.faq-title{
+    margin-bottom: 25px;
+}
+.faq-acc {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.faq-acc-el {
+    position: relative;
+    transition: margin-bottom 0.3s ease;
+}
+
+.faq-acc-el-trigger {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(46, 201, 204, 0.4) 100%);
+    border: 1px solid #2ec9cc;
+        padding: 15px;
+        width: 345px;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-acc-arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    transition: transform 0.3s ease;
+}
+
+.faq-acc-arr.is-hidden {
+    display: none;
+}
+
+.faq-acc-el-descr-frame {
+    border-left:1px solid #2ec9cc;
+    border-right: 1px solid #2ec9cc;
+    border-bottom: 1px solid #2ec9cc;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(46, 201, 204, 0.4) 100%);
+    border-radius: 0 0 16px 16px;
+        padding: 15px;
+        width: 345px;
+    text-align: left;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, border-bottom 0.3s ease;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+    visibility: hidden;
+}
+
+.faq-acc-el.open .faq-acc-el-trigger {
+    border-bottom: none;
+}
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    visibility: visible;
+    opacity: 1;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #2ec9cc;
+        border-right: 1px solid #2ec9cc;
+        border-bottom: 1px solid #2ec9cc;
+        border-radius: 0 0 16px 16px;
+        padding: 15px;
+            width: 345px;
+    max-height: 500px;
+    margin-bottom: 16px;
+ }
+ .faq-container{
+    padding-bottom: 50px;
+ }
+ @media only screen and (min-width: 1439px) {
+  .faq-title{
+    margin-bottom: 56px;
+  }
+  .faq-acc{
+    width: 1296px;
+  }
+  .faq-acc-el-trigger{
+    width: 1296px;
+    font-size: 24px;
+  }
+  .faq-acc-el-descr-frame{
+    width: 1296px;
+    font-size: 24px;
+  }
+  .faq-acc-el.open .faq-acc-el-descr-frame{
+    width: 1296px;
+  }
+ }
