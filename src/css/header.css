@@ -1,44 +1,110 @@
 .header {
-  padding: 20px 0;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 4px 0 rgba(46, 201, 204, 0.25);
+    background: #041015;
+  height: 76px;
+  width: 100%;
+  z-index: 1000;
 }
-.nav {
+
+.header-container {
+  padding: 12px 15px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
-.nav-logo {
-  display: inline-flex;
+
+.menu-button {
+  display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+  margin-left: auto;
+  border-radius: 13px;
+  padding: 20px;
+  width: 58px;
+  height: 58px;
+  background: none;
+  cursor: pointer;
 }
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+
+.navigation-list {
+  display: none;
 }
-.nav-link {
-  position: relative;
-  display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-}
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
+
+/* Modal */
+.modal {
+  display: none;
+  box-shadow: 0 4px 4px 0 rgba(46, 201, 204, 0.25);
+    background: #041015;
+  width: 374px;
+  height: auto;
+  z-index: 1000;
+  position: fixed;
+  top: 70px;
   left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
+  transform: translateX(-50%);
+  padding:15px;
+  transition: visibility 0.3s ease;
 }
-.nav-link.active::after {
-  background: #747bff;
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 32px;
+  width: 127px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.menu-list-item {
+  height: 32px;
+  font-size: 14px;
+  color: #fff;
+  transition: color 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-list-item:hover {
+  color: #2ec9cc;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    height: 70px;
+  }
+
+  .header-container {
+    padding: 9px 72px;
+     gap: 437px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .navigation-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .navigation-item{
+      font-size: 14px;
+      color: #fff;
+    transition: fcolor 0.3s ease;
+    cursor: pointer;
+  }
+ 
+  .navigation-item:hover {
+    color: #2ec9cc;
+  }
+
+    .navigation-item.active{
+      color: #2ec9cc;
+     }
 }

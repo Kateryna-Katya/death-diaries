@@ -2,12 +2,12 @@
 .home-section{
     background-image: url("/img/home/mob.png");
     background-repeat: no-repeat;
-    background-position: top 70px center;
+    background-position: top 60px center;
     background-size: cover;
     height: 724px;
 }
 .home-title{
-    margin-top: 90px;
+    margin-top: 70px;
     font-family: "Roboto", sans-serif;
         font-weight: 900;
         font-size: 40px;
@@ -16,9 +16,9 @@
         color: #041015;
         text-shadow:
                 0 0 5px #2ec9cc,
+                0 0 5px #2ec9cc,
                 0 0 10px #2ec9cc,
-                0 0 10px #2ec9cc,
-                0 0 30px #2ec9cc;
+                0 0 10px #2ec9cc;
 }
 .home-text{
     margin-top: 20px;
@@ -45,6 +45,11 @@
             font-size: 16px;
             text-transform: uppercase;
             color: #fff;
+transition: all 0.3s ease;
+}
+.home-link:hover{
+    border: 1px solid #ca5a2e;
+    background: #041015;
 }
 @media only screen and (min-width: 1439px) {
   .home-section{
@@ -128,7 +133,12 @@ width: 636px;
             font-size: 16px;
             text-transform: uppercase;
             color: #fff;
-   }
+            transition: all 0.3s ease;
+}            
+.featured-link:hover {
+border: 1px solid #ca5a2e;
+background: #041015; 
+ }
    .featured-title-desk{
     display: none;
    }
@@ -244,9 +254,20 @@ width: 636px;
     width: 90%;
   }
   .custom-arrow{
+    border-radius: 100%;
+    width: 58px;
+    height: 58px;
     cursor: pointer;
     background-color: inherit;
     border: none;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-arrow:hover{
+    background-color: #041015;
+    border: 2px solid #2ec9cc;
   }
   .kinds-custom-next{
     transform: rotate(180deg);
