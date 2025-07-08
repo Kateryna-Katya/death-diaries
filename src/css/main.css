@@ -166,3 +166,221 @@ width: 636px;
         margin-top: -540px;
     }
    }
+   /* Kinds of Pain We Cover */
+.kinds-title{
+    margin-bottom: 25px;
+}
+.kinds-swiper-slide{
+    cursor: pointer;
+}
+.kinds-wrapper{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(46, 201, 204, 0.4) 100%);
+    height: 103px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.kinds-wrapper-two{
+    margin-top: 25px;
+}
+.kinds-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 265px;
+}
+.kinds-title-slide{
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+}
+.kinds-text-slide{
+    text-align: center;
+}
+   .custom-pagination {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+       margin-top: 20px;
+       width: 100%;
+       height: 50px;
+   }
+
+   .pagination-item {
+       border-radius: 8px;
+       width: 8px;
+       height: 8px;
+       background: #969bad;
+       transition: background-color 0.3s ease-in-out;
+   }
+
+   .pagination-item.active {
+       border: 1px solid #091018;
+       border-radius: 8px;
+       background: #2ec9cc;
+       transform: scale(1.4);
+ }
+ .custom-navigation{
+    display: none;
+ }
+ @media only screen and (min-width: 1439px) {
+  .kinds-title{
+    margin-bottom: 55px;
+  }
+  .kinds-container{
+    position: relative;
+  }
+  .custom-pagination{
+    display: none;
+  }
+  .custom-navigation{
+    display: flex;
+    position: absolute;
+    top:70px;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .custom-arrow{
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+  }
+  .kinds-custom-next{
+    transform: rotate(180deg);
+  }
+  .kinds-title-slide{
+    font-size: 24px;
+  }
+  .kinds-text-slide{
+    font-size: 24px;
+  }
+  .kinds-wrapper{
+    height: 124px;
+  }
+  .kinds-text-wrapper{
+width: 317px;
+  }
+ }
+ /* We Learn More When We Die */
+ .learn-text-wrapper{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .learn-container{
+    padding-bottom: 50px;
+ }
+ @media only screen and (min-width: 1439px) {
+    .learn-text-wrapper{
+        margin-top: 56px;
+        margin-bottom: 0;
+        width: 526px;
+    } 
+.learn-img{
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: -300px;
+}
+ }
+ /* Tell Us How You Died */
+ .tell-section{
+    background: linear-gradient(135deg, rgba(46, 201, 204, 0) 0%, rgba(46, 201, 204, 0.4) 100%);
+ }
+ .tell-text{
+    margin-top: 25px;
+ }
+ .tell-span{
+    font-weight: 700;
+ }
+ @media only screen and (min-width: 1439px) {
+  .tell-text{
+    margin-top: 56px;
+  }
+  .tell-link{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+  }
+ }
+ /* The Hall of Glorious Failure */
+ .hall-list {
+     margin-top: 25px;
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     padding-left: 20px;
+ }
+
+ .hall-item {
+     position: relative;
+     width: 323px;
+     height: 42px;
+ }
+
+ .featured-img {
+     position: absolute;
+     top: -10px;
+     left: -22px;
+     width: 20px;
+     height: 13px;
+ }
+
+ .featured-link {
+     padding: 16px 24px;
+     width: 345px;
+     height: 51px;
+     background: #ca5a2e;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 25px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 700;
+     font-size: 16px;
+     text-transform: uppercase;
+     color: #fff;
+ }
+.hall-img{
+    margin-top: 25px;
+}
+ @media only screen and (min-width: 1439px) {
+      .hall-list {
+         margin-top: 56px;
+        width: 416px;
+         gap: 70px;
+     }
+
+     .hall-item {
+        width: 416px;
+     }
+
+     .hall-item:nth-child(even) {
+         margin-left: 60px;
+     }
+
+     .featured-img {
+         width: 39px;
+         height: 26px;
+         top: -30px;
+         left: -40px;
+     }
+
+     .featured-link {
+         width: 416px;
+         height: 51px;
+         margin-top: 72px;
+     }
+
+     .hall-img {
+        width: 636px;
+            height: 528px;
+         margin-right: 0;
+         margin-left: auto;
+         margin-top: -530px;
+     }
+ }
