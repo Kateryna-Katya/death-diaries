@@ -22,14 +22,69 @@
     <script type="module" crossorigin src="/death-diaries/index.js"></script>
     <link rel="modulepreload" crossorigin href="/death-diaries/assets/vendor-wKantkHV.js">
     <link rel="stylesheet" crossorigin href="/death-diaries/assets/vendor-BMD19QWe.css">
-    <link rel="stylesheet" crossorigin href="/death-diaries/assets/styles-GSGX-cyx.css">
+    <link rel="stylesheet" crossorigin href="/death-diaries/assets/styles-B2EV5nen.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
+    <header class="header" id="site-header">
+  <div class="header-container container">
+    <a class="header-link-home" href="#Home">
+    <img class="header-img" src="/death-diaries/assets/footer-DMd-1iRx.png" alt="Logo" loading="lazy" width="28" height="51">
+  </a>
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12H21M3 6H21M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+    </button>
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#About">About</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Latest">Latest Posts</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Kinds">Categories</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Submit">Submit a Story</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Deaths">Top Deaths</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Quote">Quote Wall</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#FAQ">FAQ</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item" href="index.html#Home">Home</a></li>
+    <li><a class="menu-list-item" href="index.html#About">About</a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Latest">Latest Posts</a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Kinds">Categories</a></li>
+    <li><a class="menu-list-item" href="index.html#Submit">Submit a Story</a></li>
+    <li><a class="menu-list-item" href="index.html#Deaths">Top Deaths</a></li>
+    <li><a class="menu-list-item" href="index.html#Quote">Quote Wall</a></li>
+    <li><a class="menu-list-item" href="index.html#FAQ">FAQ</a></li>
+    <li><a class="menu-list-item" href="./privacy.html">Privacy Policy</a></li>
+    <li><a class="menu-list-item" href="./terms.html">Terms of Use</a></li>
+    <li><a class="menu-list-item" href="./cookies.html">Cookies Policy</a></li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
@@ -48,7 +103,7 @@
   </div>
 </section>
 <!-- What Is Death Diaries? -->
-<section class="what-section">
+<section class="what-section" id="About">
     <div class="container">
 <h2 class="what-title">What Is Death Diaries?</h2>
 <div class="what-wrapper">
@@ -69,7 +124,7 @@
     </div>
 </section>
 <!-- Featured Death Entries -->
-<section class="featured-section">
+<section class="featured-section" id="Latest">
     <div class="container">
         <h2 class="featured-title">Featured Death Entries</h2>
         <h2 class="featured-title-desk">Recent Posts from the Abyss</h2>
@@ -215,7 +270,7 @@
     </div>
 </section>
 <!-- Tell Us How You Died -->
-<section class="tell-section">
+<section class="tell-section" id="Submit">
     <div class="container">
         <h2 class="tell-title">Tell Us How You Died</h2>
         <p class="tell-text">Have a death worth documenting? Share your fail. We feature player-submitted diary entries every week. Funny, dramatic,
@@ -228,7 +283,7 @@
     </div>
 </section>
 <!-- The Hall of Glorious Failure -->
-<section class="hall-section">
+<section class="hall-section" id="Deaths">
     <div class="container">
         <h2 class="hall-title">The Hall of Glorious Failure</h2>
         <ul class="hall-list">
@@ -259,7 +314,7 @@
     </div>
 </section>
 <!-- Words from the Fallen -->
-<section class="word-section">
+<section class="word-section" id="Quote">
     <div class="container word-container">
         <h2 class="word-title">Words from the Fallen</h2>
         <div class="swiper word-swiper">
@@ -396,7 +451,7 @@
     </div>
 </section>
 <!-- Frequently Died Questions -->
-<section class="faq-section">
+<section class="faq-section" id="FAQ">
     <div class="container faq-container">
         <h2 class="faq-title">Frequently Died Questions</h2>
         <ul class="faq-acc">
@@ -718,13 +773,13 @@
     <img class="footer-img" src="/death-diaries/assets/footer-DMd-1iRx.png" alt="Logo icon" loading="lazy" width="73" height="131">
     <ul class="footer-navigation">
       <li class="footer-link">
-        <a class="footer-underline" href="Privacy Policy.html">Privacy Policy</a>
+        <a class="footer-underline" href="./privacy.html">Privacy Policy</a>
       </li>
           <li class="footer-link">
-        <a class="footer-underline" href="Cookies Policy.html">Cookies Policy</a>
+        <a class="footer-underline" href="./cookies.html">Cookies Policy</a>
       </li>
       <li class="footer-link">
-        <a class="footer-underline" href="Terms and Conditions.html">Terms of Use</a>
+        <a class="footer-underline" href="./terms.html">Terms of Use</a>
       </li>
       <li class="footer-link">
         <a class="footer-underline" href="#Inbox">Submit a Death</a>
